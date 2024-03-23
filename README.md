@@ -39,7 +39,17 @@ source /your_path/db.sql;
 4. Configure model config: Please deploy the download datasets and modify the model config in file /Demo/VQASystem/model_info.py. An example of modifying the config:
 
 ```
-tbh
+MiniGPT4={
+    'url':"https://arxiv.org/abs/2304.10592",
+    'title':"MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models",
+    "path":{
+        "VQA-RAD":"/home/coder/projects/Med-VQA/run_vqarad.sh",
+        "PATHVQA":"/home/coder/projects/Med-VQA/run_path.sh",
+         "SLAKE":"/home/coder/projects/Med-VQA/run_slake.sh",
+        "MED-VQA":"/home/coder/projects/Med-VQA/run_medvqa.sh"
+        },
+    "dataset":{"VQA-RAD":"data_RAD", "PATHVQA":"data_PathVQA","SLAKE":"/home/coder/projects/Med-VQA/data_SLAKE","MED-VQA":"/home/coder/projects/MEVF/MICCAI19-MedVQA/data_Med/VQA-Med-2019"}
+}
 ```
 
 5. Run Application: We use streamlit framework to develop our App.
