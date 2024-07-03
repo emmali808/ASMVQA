@@ -19,7 +19,7 @@ configurations, our system automatically trains and evaluates the selected model
 
 ## Med-VQA Data for Pre-training and Fine-tuning
 
-We provide the benchmark Med-VQA datasets for practice, you can download them from Google Cloud.
+Due to concerns related to data copyright and privacy issues, users are required to obtain datasets ( [VQA-RAD](https://vision.aioz.io/f/777a3737ee904924bf0d/?dl=1), [PathVQA](https://drive.google.com/drive/folders/1G2C2_FUCyYQKCkSeCRRiTTsLDvOAjFj5), [SLAKE](http://www.med-vqa.com/slake), [VQA-Med](https://github.com/abachaa/VQA-Med-2019), [OVQA](https://dl.acm.org/doi/pdf/10.1145/3477495.3531724)) independently via the provided links. Furthermore, users should utilize the preprocessing code supplied by us to prepare the data for analysis.
 
 ## Install
 
